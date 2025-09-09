@@ -6,7 +6,7 @@ WHERE t.species LIKE 'Oryza%'
 GROUP BY t.species
 ORDER BY longest_sequence DESC
 LIMIT 1;
--- ✅ Verified Output:
+-- Verified Output:
 -- +-----------------+------------------+
 -- | species         | longest_sequence |
 -- +-----------------+------------------+
